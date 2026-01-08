@@ -1,4 +1,4 @@
-x[project]
+[project]
 name = "business-control-backend"
 version = "0.1.0"
 description = "Backend API for managing business finances, including revenue, product expenses, and customer control. Built as a scalable service for small and medium businesses."
@@ -6,7 +6,7 @@ authors = [
     {name = "Itamaro"}
 ]
 readme = "README.md"
-requires-python = "3.12.12"
+requires-python = ">=3.12,<4.0"
 dependencies = [
     "djangorestframework (>=3.16.1,<4.0.0)",
     "django-filter (>=25.2,<26.0)",
